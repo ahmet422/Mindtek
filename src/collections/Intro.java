@@ -1,6 +1,8 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 import java.util.Stack;
 
 public class Intro {
@@ -21,6 +23,15 @@ public class Intro {
         Stack<String> words = new Stack<>();
         System.out.println(words);
         if(!words.isEmpty()) words.peek();
+
+
+        List<Integer> list1 = new ArrayList<>();
+        LinkedList<Integer> list2 = new LinkedList<>();
+        list2.add(4);
+        list1.add(5);
+        list1.add(1,8);
+        for (int el : list1) list2.add(el);
+        System.out.println(list2);
 
 
     }
