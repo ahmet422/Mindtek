@@ -19,6 +19,10 @@ public class Movie {
         this.releaseYear = releaseYear;
     }
 
+    public Movie() {
+
+    }
+
     public String getTitle() {
         return title;
     }
